@@ -85,7 +85,7 @@ git push -u origin main
 
 ### Step 2: Make It Live (Free GitHub Pages)
 
-1. Go to your repository on GitHub: `https://github.com/pamaravati802-cmd/guddu`
+1. Go to your repository on GitHub: `https://github.com/pamaravati802-cmd/guddu0`
 2. Click **Settings** (tab at the top right).
 3. In the left sidebar, click **Pages**.
 4. Under **Build and deployment > Branch**:
@@ -93,7 +93,7 @@ git push -u origin main
    - Select folder **`/ (root)`**.
    - Click **Save**.
 5. Wait 30–60 seconds, refresh the page, and GitHub will display your live website link:
-   **`https://pamaravati802-cmd.github.io/guddu/`**
+   **`https://pamaravati802-cmd.github.io/guddu0/`**
 6. Copy that link and send it to Guddu on WhatsApp or Instagram! ❤️
 
 ---
