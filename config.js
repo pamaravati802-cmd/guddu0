@@ -7,7 +7,7 @@ const CONFIG = {
   herName: "Guddu",
   herNickname: "Guddu Ji",
   yourName: "Duggu",
-  birthdayDate: "2026-11-09T06:12:00",
+  birthdayDate: "2026-11-09T00:00:00",
   togetherSince: "2023-09-27",
 
   music: { src: "assets/music/background.mp3", volume: 0.4 },
