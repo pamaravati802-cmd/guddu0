@@ -3,6 +3,7 @@ dist/
 scratch_screenshots/
 scratch_chrome_profile/
 scratch_chrome_profile_*
+scratch_chrome_test_*
 src/
 public/
 v1_birthday_website/

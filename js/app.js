@@ -1077,9 +1077,14 @@ ${b ? '' : `<g transform="translate(86 16) rotate(20)"><ellipse cx="-7" rx="8" r
     const cw = W / cs, ch = H / rs;
     const a = [];
 
-    for (let i = 0; i < cs; i++)
-      for (let j = 0; j < rs; j++)
-        a.push([(i + 0.1 + Math.random() * 0.8) * cw, (j + 0.1 + Math.random() * 0.8) * ch]);
+    const minY = 140; // keep top title area completely clear of lips
+    for (let i = 0; i < cs; i++) {
+      for (let j = 0; j < rs; j++) {
+        const rawY = (j + 0.1 + Math.random() * 0.8) * ch;
+        const y = Math.max(minY, rawY);
+        a.push([(i + 0.1 + Math.random() * 0.8) * cw, y]);
+      }
+    }
 
     a.sort((p, q) => Math.hypot(p[0] - ox, p[1] - oy) - Math.hypot(q[0] - ox, q[1] - oy));
 
