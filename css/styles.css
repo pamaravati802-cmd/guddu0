@@ -1662,7 +1662,7 @@ a{text-decoration:none;color:inherit}
 
 /* ═══════ KISS LAYER + WIPER ═══════ */
 #kl {
-  position: fixed; inset: 0; z-index: 4;
+  position: fixed; inset: 0; z-index: 55 !important;
   pointer-events: none; overflow: hidden;
 }
 .k {
@@ -1673,18 +1673,18 @@ a{text-decoration:none;color:inherit}
 }
 .k svg { display: block; width: 100%; height: auto; }
 .k.fly {
-  opacity: .92;
-  transform: translate(0,0) scale(1) rotate(var(--r));
+  opacity: 0.95 !important;
+  transform: translate(0, 0) scale(1) rotate(var(--r)) !important;
 }
 .k.wiped {
-  opacity: 0;
-  transform: translate(80px,0) scale(.5,.9) rotate(var(--r));
-  filter: blur(8px);
-  transition: transform .5s ease-in, opacity .45s, filter .45s;
+  opacity: 0 !important;
+  transform: translate(80px, 0) scale(.5, .9) rotate(var(--r)) !important;
+  filter: blur(8px) !important;
+  transition: transform .5s ease-in, opacity .45s, filter .45s !important;
 }
 #wiper {
   position: fixed; top: -5vh; bottom: -5vh; left: 0; width: 26vw;
-  z-index: 60; pointer-events: none;
+  z-index: 65 !important; pointer-events: none;
   transform: translateX(-40vw);
   backdrop-filter: blur(7px); -webkit-backdrop-filter: blur(7px);
   border-radius: 0 44px 44px 0;

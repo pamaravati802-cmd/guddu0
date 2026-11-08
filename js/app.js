@@ -1092,7 +1092,7 @@ ${b ? '' : `<g transform="translate(86 16) rotate(20)"><ellipse cx="-7" rx="8" r
       const w = rand(46, 88);
       const k = document.createElement('div');
       k.className = 'k';
-      k.innerHTML = '<svg viewBox="0 0 64 40"><use href="#lip" width="64" height="40"/></svg>';
+      k.innerHTML = '<svg viewBox="0 0 64 40"><path d="M32 10C28 2 14 0 4 18C16 22 26 22 32 18C38 22 48 22 60 18C50 0 36 2 32 10Z" fill="#ff4081"/><path d="M4 18C12 36 26 40 32 40C38 40 52 36 60 18C48 24 38 24 32 20C26 24 16 24 4 18Z" fill="#e91e63"/><ellipse cx="22" cy="9" rx="8" ry="2.4" fill="#fff" opacity=".45"/><ellipse cx="32" cy="31" rx="9" ry="2.2" fill="#fff" opacity=".35"/></svg>';
       k.style.cssText = `left:${x - w / 2}px;top:${y - w * 0.3}px;--w:${w}px;--dx:${ox - x}px;--dy:${oy - y}px;--r:${rand(-35, 35)}deg;transition-delay:${i * 22}ms`;
       k._x = x;
       $('#kl').append(k);
