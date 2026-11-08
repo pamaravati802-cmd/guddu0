@@ -1,0 +1,11 @@
+﻿<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <linearGradient id="g" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#2a1a2e"/>
+      <stop offset="100%" style="stop-color:#1a0a1e"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="600" fill="url(#g)"/>
+  <text x="400" y="280" text-anchor="middle" fill="#e8a0bf" font-family="sans-serif" font-size="24" opacity="0.6">📷 Replace with your photo</text>
+  <text x="400" y="320" text-anchor="middle" fill="#b8a0b8" font-family="sans-serif" font-size="14" opacity="0.5">photo10</text>
+</svg>

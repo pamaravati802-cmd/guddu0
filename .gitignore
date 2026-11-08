@@ -1,0 +1,17 @@
+node_modules/
+dist/
+scratch_screenshots/
+scratch_chrome_profile/
+scratch_chrome_profile_*
+src/
+public/
+v1_birthday_website/
+run_visual_test.cjs
+package.json
+package-lock.json
+postcss.config.js
+tailwind.config.js
+vite.config.js
+.DS_Store
+Thumbs.db
+*.log
